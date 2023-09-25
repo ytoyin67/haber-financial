@@ -39,7 +39,9 @@ i{
   justify-content: center;
   align-items: center;
 }
-
+.menu a:hover{
+  border-bottom: 1px solid white;
+}
 
 .mobile-menu{
   display: none;
