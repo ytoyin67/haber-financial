@@ -13,6 +13,7 @@ a{
 
 img{
   width: 100%;
+ 
 }
 
 i{
@@ -90,7 +91,7 @@ z-index: 1;
 
 .focus .icon i{
   padding: 2px;
-  background-color: orange;
+  background-color:  rgb(250, 85, 29);
   color: white;
   height: 5px;
   width:5px;
@@ -98,10 +99,27 @@ z-index: 1;
 }
 
 
+       /*     Investment  */
 
 
+.investment{
+  background-color: lightgrey;
+}
 
+.card img{
+  height: 200px;
+  object-fit: cover;
+}
 
+.investment-grid{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-title h3{
+  color: rgb(250, 85, 29);
+  padding-top: 6px;
+}
 
 
 
@@ -176,7 +194,7 @@ z-index: 1;
     position: fixed;
     top: 0;
     right: 0;
-    width: 57%;
+    width: 52%;
     height: 100vh;
     background-color: rgb(255, 255, 255,.96);
     color: black;
@@ -301,6 +319,11 @@ z-index: 1;
 .financial{
   height: 17.6rem;
   position: relative;
+}
+
+.investment-grid{
+  width: 99%;
+  margin: 0 auto;
 }
 
 }
