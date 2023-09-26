@@ -4,6 +4,13 @@ const images = [
  "images/pic8.jpg"
 ]
 
+//Spinner preloader
+
+window.addEventListener('load', function(){
+  const preloader = document.querySelector('.preloader')
+  preloader.classList.add('hide')
+})
+
 
 //Elements 
 const btnRight = document.querySelector('.btn-right')
