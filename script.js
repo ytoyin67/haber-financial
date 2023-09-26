@@ -49,20 +49,23 @@ btnRight.addEventListener('click', function(){
 document.querySelector('.menu-open').addEventListener('click',function(){
 
   document.querySelector('.menu-toggle').classList.toggle('show')
+  document.body.classList.add('toggle')
 })
 
 document.querySelector('.menu-close').addEventListener('click',function(){
 
   document.querySelector('.menu-toggle').classList.toggle('show')
+  document.body.classList.remove('toggle')
 })
 
 
-
+//window object
 window.addEventListener('click', function(e){
   const menu = document.querySelector('.menu-toggle')
+
   if(e.target === menu){
     menu.classList.remove('show')
-   
+   document.body.classList.remove('toggle')
    } 
   
 })

@@ -1,5 +1,7 @@
 
-
+body{
+ overflow-x: hidden;
+}
 
 li{
   list-style: none;
@@ -35,7 +37,9 @@ html{
   height: 4rem;
   
  }   
- 
+ body.toggle{
+  overflow: hidden;
+ }
  
 .navbar h5{
   background-color: rgb(250, 85, 29);
@@ -122,8 +126,31 @@ z-index: 1;
   padding-top: 6px;
 }
 
+.div-card{
+  box-shadow: 9px 6px 7px -3px rgba(0,0,0,0.39);
+-webkit-box-shadow: 9px 6px 7px -3px rgba(0,0,0,0.39);
+-moz-box-shadow: 9px 6px 7px -3px rgba(0,0,0,0.39);
+}
+
+.div-card:hover{
+  opacity: .82;
+}
 
 
+      /* SAVING MONEY */
+
+      .saving-container{
+       width: auto;
+       margin-right: 0;
+      }
+
+
+      .save:hover{
+        opacity: .8;
+      }
+
+
+      /* PRELOADER */
 .preloader{
   z-index: 999;
   height: 100vh;
