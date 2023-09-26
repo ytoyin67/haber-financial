@@ -314,7 +314,9 @@ z-index: 1;
 
 /* MEDIA QUERY 600px and below */
 @media(max-width: 600px){
-
+  .menu-toggle{
+    width: 60%;
+  }
 
 .financial{
   height: 17.6rem;
