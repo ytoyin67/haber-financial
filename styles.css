@@ -24,6 +24,10 @@ i{
   align-items: center;
   justify-items: center;
 }
+html{
+  scroll-behavior: smooth;
+
+}
 
       /* NAVBAR */
 
@@ -111,10 +115,6 @@ z-index: 1;
   object-fit: cover;
 }
 
-.investment-grid{
-  width: 90%;
-  margin: 0 auto;
-}
 
 .card-title h3{
   color: rgb(250, 85, 29);
@@ -194,7 +194,7 @@ z-index: 1;
     position: fixed;
     top: 0;
     right: 0;
-    width: 52%;
+    width: 58%;
     height: 100vh;
     background-color: rgb(255, 255, 255,.96);
     color: black;
@@ -314,17 +314,14 @@ z-index: 1;
 
 /* MEDIA QUERY 600px and below */
 @media(max-width: 600px){
-  .menu-toggle{
-    width: 60%;
-  }
-
+  
 .financial{
   height: 17.6rem;
   position: relative;
 }
 
 .investment-grid{
-  width: 99%;
+  width: 95%;
   margin: 0 auto;
 }
 
