@@ -137,6 +137,61 @@ z-index: 1;
 }
 
 
+      /* LOGO SECTION */
+
+   .logo img{
+    width: 100px;
+    height: 100px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    object-fit: cover;
+   }
+
+.logo img:hover{
+   transform: translateY(-5px);
+   opacity: .89;
+}
+
+
+
+
+    /* CONTACT  */
+
+.contact button{
+  background-color: rgb(250, 85, 29);
+  color: white;
+  justify-self: flex-end;
+  float: right;
+  padding: 5px 22px;
+}
+
+.contact{
+  background: url('images/pic10.jpg') no-repeat center center/cover;
+  
+}
+.contact h1{
+  color: rgb(250, 85, 29);
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+.my-input::placeholder{
+ color: white;
+ padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
       /* SAVING MONEY */
 
       .saving-container{
@@ -169,36 +224,6 @@ opacity: 1;
   height: 80px;
   width: 80px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -250,13 +275,14 @@ opacity: 1;
     box-shadow: -1px 0 0 0 grey;
   
     transform: translateX(200%);
-  
-    transition: all .2s ease-in-out;
+   
+    transition: all .3s ease-in-out;
   }
   
   
   .menu-toggle.show{
     transform: translateX(0);
+    
   }
   
   .menu-toggle-ul{
@@ -333,6 +359,14 @@ opacity: 1;
 
 }
 
+@media(max-width: 768px){
+
+  .contact button{
+    float: none;
+    display: block;
+    width: 100%;
+ }
+}
 
 
 /* MEDIA QUERY 760px and below */
@@ -351,7 +385,13 @@ opacity: 1;
   
 }
 
+
 }
+
+
+/* 
+
+} */
 
 
 
@@ -360,7 +400,7 @@ opacity: 1;
 @media(max-width: 600px){
   
 .financial{
-  height: 17.6rem;
+  height: 18.6rem;
   position: relative;
 }
 
@@ -383,7 +423,7 @@ opacity: 1;
  
   
   .financial{
-    height: 14.9rem;
+    height: 16.4rem;
     position: relative;
   }
   
