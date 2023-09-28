@@ -182,8 +182,30 @@ z-index: 1;
  padding: 3px;
 }
 
+/* FOOTER */
 
+.footer .footer-social  i{
+  color: rgb(250, 85, 29);
+   
+}
+.footer .footer-social i:hover{
+  color: rgb(250, 85, 29,.7);
 
+  
+}
+h1.text-light{
+  position: relative;
+}
+
+h1.text-light::after{
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 4px;
+  background-color: white;
+  bottom: 10px;
+  right: 35px;
+}
 
 
 
