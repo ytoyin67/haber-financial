@@ -158,7 +158,7 @@ z-index: 1;
     /* CONTACT  */
 
 .contact button{
-  background-color: rgb(250, 85, 29,.9);
+  background-color: rgb(250, 85, 29,.8);
   color: white;
   justify-self: flex-end;
   float: right;
@@ -170,19 +170,16 @@ z-index: 1;
   
 }
 .contact h1{
-  color: rgb(250, 85, 29,.9);
-  font-size: 2.1rem;
-  text-shadow: 1px 1px 2px white;
+  color: rgb(250, 85, 29,.68);
+  font-size: 1.99rem;
+  /* text-shadow: 1px 1px 2px white;
+ */
 }
-
 
 .my-input::placeholder{
- color: white;
- padding: 3px;
-}
+ color: rgb(255, 255, 255,.6);
 
-.my-input:focus{
-  outline: none;
+ padding: 3px;
 }
 
 
