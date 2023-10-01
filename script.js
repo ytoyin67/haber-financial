@@ -69,3 +69,16 @@ window.addEventListener('click', function(e){
    } 
   
 })
+
+
+window.addEventListener('scroll', function(){
+
+  const navigate = document.querySelector('.navigate')
+  if(window.scrollY > 1000) {
+    navigate.classList.add('show')
+  } else {
+    navigate.classList.remove('show')
+  }
+
+
+})
