@@ -49,7 +49,7 @@ btnRight.addEventListener('click', function(){
 document.querySelector('.menu-open').addEventListener('click',function(){
 
   document.querySelector('.menu-toggle').classList.toggle('show')
-  document.body.classList.add('toggle')
+   document.body.classList.add('toggle')
 })
 
 document.querySelector('.menu-close').addEventListener('click',function(){
